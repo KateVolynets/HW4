@@ -1,0 +1,10 @@
+# number = int(input("Enter the number: "))
+number = 2
+mult_number_1 = number * 2
+number *= 2
+print(mult_number_1, number, sep=", ")
+number = 2
+# number /= 2
+div_number_1 = number / 2
+number /= 2
+print(int(div_number_1), int(number), sep=", ")
